@@ -5,6 +5,10 @@
   background-color: #fefefd;
 }
 
+p {
+  text-transform: uppercase;
+}
+
 /* DEFINITION OF SCREEN WIDTH */
 html {
   height: 100vh;
@@ -14,6 +18,7 @@ html {
 .title {
   text-align: center;
   padding: 20px;
+  text-transform: uppercase;
 }
 
 /* MAIN TEXT STYLING CLASS */
@@ -69,4 +74,11 @@ html {
 .footer-text {
   font-size: 20px;
   text-align: center;
+}
+
+/* RUINE IMAGE */
+.rune-image {
+  width: 75vh;
+  margin-left: auto;
+  margin-right: auto;
 }
