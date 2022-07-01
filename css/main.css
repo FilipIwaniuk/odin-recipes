@@ -1,0 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  background-color: #F2EBE9;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+}
