@@ -2,7 +2,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  background-color: #F2EBE9;
+  background-color: #fefefd;
 }
 
 /* DEFINITION OF SCREEN WIDTH */
@@ -24,20 +24,48 @@ html {
 }
 
 /* MENU STYLING CLASS */
-.main-body-menu ul li {
-  font-size: 19px;
+.main-body-menu nav {
   text-align: center;
-  list-style: none;
 }
 
+.main-body-menu li {
+  display: inline-block;
+}
+
+.main-body-menu {
+  padding-bottom: 30px;
+}
+
+.main-body-menu a {
+  text-decoration: none;
+}
+
+.main-body-menu ul li {
+  font-size: 19px;
+  list-style: none;
+  padding-bottom: 5px;
+  text-align: center;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  margin-top: 3px;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: #d1a375;
+  color: aliceblue;
+}
+
+/* IMAGE STYLING CLASS */
 .main-body-img-container img {
   height: 25vh;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* FOOTER STYLING CLASS*/
 .footer-text {
   font-size: 20px;
+  text-align: center;
 }
