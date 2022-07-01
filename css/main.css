@@ -1,20 +1,34 @@
+/* GLOBAL STYLING */
 * {
   padding: 0px;
   margin: 0px;
   background-color: #F2EBE9;
 }
 
+/* DEFINITION OF SCREEN WIDTH */
 html {
   height: 100vh;
 }
 
+/* TITLE STYLING CLASS */
 .title {
   text-align: center;
   padding: 20px;
 }
 
+/* MAIN TEXT STYLING CLASS */
 .main-body-text {
   text-align: center;
   line-height: 5vh;
+  font-size: 20px;
+}
+
+/* MENU STYLING CLASS */
+.main-body-menu ul li {
+  font-size: 19px;
+}
+
+/* FOOTER STYLING CLASS*/
+.footer-text {
   font-size: 20px;
 }
