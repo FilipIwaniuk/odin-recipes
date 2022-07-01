@@ -26,6 +26,15 @@ html {
 /* MENU STYLING CLASS */
 .main-body-menu ul li {
   font-size: 19px;
+  text-align: center;
+  list-style: none;
+}
+
+.main-body-img-container img {
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* FOOTER STYLING CLASS*/
