@@ -5,3 +5,6 @@ The project is part of the 'The odin project' curriculum, such will contain rang
 The project utilizes the base stack of:
 1. HTML
 2. CSS
+
+The recipes were sourced from the following resource:
+- [Allrecipies](https://www.allrecipes.com/)
