@@ -1,11 +1,20 @@
 * {
   padding: 0px;
   margin: 0px;
-  height: 100vh;
   background-color: #F2EBE9;
+}
+
+html {
+  height: 100vh;
 }
 
 .title {
   text-align: center;
   padding: 20px;
+}
+
+.main-body-text {
+  text-align: center;
+  line-height: 5vh;
+  font-size: 20px;
 }
