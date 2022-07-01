@@ -14,10 +14,23 @@ html {
   height: 100vh;
 }
 
+.main-container {
+  width: 80%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 /* TITLE STYLING CLASS */
 .title {
   text-align: center;
   padding: 20px;
+  text-transform: uppercase;
+}
+
+/* SUBHEADING STYLING */
+.subheading-container {
+  text-align: center;
+  padding-bottom: 20px;
   text-transform: uppercase;
 }
 
@@ -35,7 +48,7 @@ html {
 
 .main-body-menu li {
   display: inline-block;
-  padding: 10px;
+  padding: 40px;
 }
 
 .main-body-menu {
@@ -51,11 +64,11 @@ html {
   list-style: none;
   padding-bottom: 5px;
   text-align: center;
-  padding-bottom: 3px;
-  padding-top: 3px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   margin-top: 3px;
   border: solid 1px #d1a375;
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: #d1a375;
   color: aliceblue;
 }
@@ -70,15 +83,19 @@ html {
   padding-bottom: 30px;
 }
 
-/* FOOTER STYLING CLASS*/
-.footer-text {
-  font-size: 20px;
-  text-align: center;
-}
-
 /* RUINE IMAGE */
 .rune-image {
+  margin-top: 25px;
   width: 75vh;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
+
+/* FOOTER STYLING CLASS*/
+.footer-text {
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+}
+
