@@ -8,3 +8,9 @@ The project utilizes the base stack of:
 
 The recipes were sourced from the following resource:
 - [Allrecipies](https://www.allrecipes.com/)
+
+
+TODO-LIST 
+- [ ] Generate the 'poetry page'!
+- [ ] Generate the 'protection page'!
+- [ ] Update styling and/or design of page!
