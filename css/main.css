@@ -5,7 +5,7 @@
   background-color: #fefefd;
 }
 
-h1, h2, p, a {
+h1, h2, p, a, li{
   text-transform: uppercase;
   font-family: 'Nanum Gothic Coding', monospace;
 }
@@ -57,7 +57,7 @@ html {
 
 .main-navigation ul li {
   font-size: 19px;
-  list-style: none;
+  /* list-style: none; */
   padding-bottom: 5px;
   text-align: center;
   padding-bottom: 10px;
@@ -73,8 +73,6 @@ html {
   background-color: #d1a375;
   color: #fefefd;
 }
-
-
 
 /* IMAGE STYLING CLASS */
 .main-body-img-container img {
@@ -110,12 +108,39 @@ html {
   text-align: justify;
   line-height: 5vh;
   font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.formula ul {
+  padding-bottom: 25px;
+}
+
+.formula ul, ol {
+  padding-right: 450px;
+  padding-left: 500px;
 }
 
 .formula ul li {
-  text-align: center;
+  list-style: armenian;
+  line-height: 3vh;
+  font-size: 18px;
 }
 
 .formula ol li {
-  text-align: center;
+  line-height: 3vh;
+  font-size: 18px;
 }
+
+.supporting-footer img {
+  padding-bottom: 10px;
+}
+
+.supporting-footer p {
+  padding-bottom: 55px;
+}
+
+/* .instructions li {
+
+ border: 2px solid black;
+
+} */
