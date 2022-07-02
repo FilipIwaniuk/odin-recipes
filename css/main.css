@@ -15,12 +15,17 @@ html {
   height: 100vh;
 }
 
-
 /* TITLE STYLING CLASS */
 .title {
   text-align: center;
   padding: 20px;
   text-transform: uppercase;
+}
+
+/* MAIN CONTAINER STYLING */
+.main-container {
+  margin-right: 450px;
+  margin-left: 450px;
 }
 
 /* SUBHEADING STYLING */
@@ -47,17 +52,12 @@ html {
   padding: 40px;
 }
 
-.main-body-menu {
-  padding-bottom: 30px;
-}
-
 .main-navigation a {
   text-decoration: none;
 }
 
 .main-navigation ul li {
   font-size: 19px;
-  /* list-style: none; */
   padding-bottom: 5px;
   text-align: center;
   padding-bottom: 10px;
@@ -137,11 +137,16 @@ html {
 }
 
 .supporting-footer p {
-  padding-bottom: 55px;
+  padding-bottom: 25px;
 }
 
 .subheading-container {
   padding-top: 18px;
+}
+
+.supporting-footer {
+  margin-right: 450px;
+  margin-left: 450px;
 }
 
 /* .instructions li {
