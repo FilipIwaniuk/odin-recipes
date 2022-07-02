@@ -5,7 +5,7 @@
   background-color: #fefefd;
 }
 
-h1, h2, p {
+h1, h2, p, a {
   text-transform: uppercase;
   font-family: 'Nanum Gothic Coding', monospace;
 }
@@ -38,11 +38,11 @@ html {
 }
 
 /* MENU STYLING CLASS */
-.main-body-menu nav {
+.main-navigation ul {
   text-align: center;
 }
 
-.main-body-menu li {
+.main-navigation li {
   display: inline-block;
   padding: 40px;
 }
@@ -51,11 +51,11 @@ html {
   padding-bottom: 30px;
 }
 
-.main-body-menu a {
+.main-navigation a {
   text-decoration: none;
 }
 
-.main-body-menu ul li {
+.main-navigation ul li {
   font-size: 19px;
   list-style: none;
   padding-bottom: 5px;
@@ -71,12 +71,10 @@ html {
 
 .main-body-menu a {
   background-color: #d1a375;
-  text-decoration: none;
+  color: #fefefd;
 }
 
-.main-body-menu a:link a:visited a:hover {
-  text-decoration: none;
-}
+
 
 /* IMAGE STYLING CLASS */
 .main-body-img-container img {
@@ -104,3 +102,20 @@ html {
   font-style: italic;
 }
 
+
+/* LIFE STYLING PAGE */
+.supporting-main-body-text {
+  margin-right: 450px;
+  margin-left: 450px;
+  text-align: justify;
+  line-height: 5vh;
+  font-size: 20px;
+}
+
+.formula ul li {
+  text-align: center;
+}
+
+.formula ol li {
+  text-align: center;
+}
