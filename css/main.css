@@ -5,8 +5,9 @@
   background-color: #fefefd;
 }
 
-p {
+h1, h2, p {
   text-transform: uppercase;
+  font-family: 'Nanum Gothic Coding', monospace;
 }
 
 /* DEFINITION OF SCREEN WIDTH */
@@ -66,6 +67,15 @@ html {
   border-radius: 4px;
   background-color: #d1a375;
   color: aliceblue;
+}
+
+.main-body-menu a {
+  background-color: #d1a375;
+  text-decoration: none;
+}
+
+.main-body-menu a:link a:visited a:hover {
+  text-decoration: none;
 }
 
 /* IMAGE STYLING CLASS */
